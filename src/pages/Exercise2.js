@@ -64,7 +64,11 @@ const Exercise2 = React.memo(() => {
         body={
           <>
             <h2> Body</h2>
-            <img src="../image/image_1.jpg" alt="image1" width="30%" />
+            <img
+              src={process.env.PUBLIC_URL + "/image/image_1.jpg"}
+              alt="image1"
+              width="30%"
+            />
           </>
         }
         footer={
