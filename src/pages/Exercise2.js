@@ -2,6 +2,7 @@ import React from "react";
 import CustomDialog from "../components/dialog/CustomDialog";
 import CustomModal from "../components/modal/CustomModal";
 import useBoolean from "../hooks/useBoolean";
+import image_body from "../asset/image/image1.jpg"
 
 const Exercise2 = React.memo(() => {
   const [isShowModal1, showModal1, hideModal1] = useBoolean(false);
@@ -65,9 +66,9 @@ const Exercise2 = React.memo(() => {
           <>
             <h2> Body</h2>
             <img
-              src={process.env.PUBLIC_URL + "/image/image_1.jpg"}
+              src={image_body}
               alt="image1"
-              width="30%"
+              width="100%"
             />
           </>
         }
