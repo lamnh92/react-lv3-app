@@ -2,7 +2,7 @@ import React from "react";
 import CustomDialog from "../components/dialog/CustomDialog";
 import CustomModal from "../components/modal/CustomModal";
 import useBoolean from "../hooks/useBoolean";
-import image_body from "../asset/image/image1.jpg"
+import image_body from "../asset/image/sample.jpg";
 
 const Exercise2 = React.memo(() => {
   const [isShowModal1, showModal1, hideModal1] = useBoolean(false);
@@ -65,11 +65,9 @@ const Exercise2 = React.memo(() => {
         body={
           <>
             <h2> Body</h2>
-            <img
-              src={image_body}
-              alt="image1"
-              width="100%"
-            />
+            <div>
+              <img src={image_body} alt="image1" width="100%" />
+            </div>
           </>
         }
         footer={
