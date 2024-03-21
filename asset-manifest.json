@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-lv3-app/static/css/main.db62923b.css",
-    "main.js": "/react-lv3-app/static/js/main.0989386a.js",
+    "main.js": "/react-lv3-app/static/js/main.4e714db4.js",
     "static/js/453.f9cf0479.chunk.js": "/react-lv3-app/static/js/453.f9cf0479.chunk.js",
     "index.html": "/react-lv3-app/index.html",
     "main.db62923b.css.map": "/react-lv3-app/static/css/main.db62923b.css.map",
-    "main.0989386a.js.map": "/react-lv3-app/static/js/main.0989386a.js.map",
+    "main.4e714db4.js.map": "/react-lv3-app/static/js/main.4e714db4.js.map",
     "453.f9cf0479.chunk.js.map": "/react-lv3-app/static/js/453.f9cf0479.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.0989386a.js"
+    "static/js/main.4e714db4.js"
   ]
 }
