@@ -64,7 +64,7 @@ const Exercise2 = React.memo(() => {
         body={
           <>
             <h2> Body</h2>
-            <img src="../logo512.png" alt="image1" width="30%" />
+            <img src="../image/image_1.jpg" alt="image1" width="30%" />
           </>
         }
         footer={
